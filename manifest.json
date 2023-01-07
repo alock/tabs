@@ -1,0 +1,73 @@
+{
+    "manifest_version": 2,
+    "name": "Tabs",
+    "permissions": [
+        "tabs"
+    ],
+    "version": "1.0.1",
+    "description": "keyboard shortcuts for tab manipulation",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{fff1e37e-f6d5-4b42-b24c-ca20dd849c73}"
+        }
+    },
+    "icons": {
+        "128": "icon128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "commands": {
+        "move-tab-first": {
+            "description": "Move tab to first position",
+            "suggested_key": {
+                "mac": "MacCtrl+H",
+                "default": "Ctrl+H"
+            }
+        },
+        "move-tab-left": {
+            "description": "Move tab to the left",
+            "suggested_key": {
+                "mac": "MacCtrl+J",
+                "default": "Ctrl+J"
+            }
+        },
+        "move-tab-right": {
+            "description": "Move tab to the right",
+            "suggested_key": {
+                "mac": "MacCtrl+K",
+                "default": "Ctrl+K"
+            }
+        },
+        "move-tab-last": {
+            "description": "Move tab to last position",
+            "suggested_key": {
+                "mac": "MacCtrl+L",
+                "default": "Ctrl+L"
+            }
+        },
+        "pin-tab": {
+            "description": "Pin Unpin Tab",
+            "suggested_key": {
+                "mac": "MacCtrl+P",
+                "default": "Ctrl+P"
+            }
+        },
+        "duplicate-tab": {
+            "description": "Duplicate Tab",
+            "suggested_key": {
+                "mac": "MacCtrl+D",
+                "default": "Ctrl+D"
+            }
+        },
+        "close-tab": {
+            "description": "Close Tab",
+            "suggested_key": {
+                "mac": "MacCtrl+W",
+                "default": "Ctrl+W"
+            }
+        }
+    }
+}
