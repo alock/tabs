@@ -1,10 +1,10 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Tabs",
     "permissions": [
         "tabs"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "keyboard shortcuts for tab manipulation",
     "browser_specific_settings": {
         "gecko": {
